@@ -16,5 +16,8 @@ with zipfile.ZipFile(private_test_data_zip_path, "r") as zip_ref:
 
 os.rename(f"{target_dir}Training_dataset", f"{target_dir}Train_data_label")
 os.rename(f"{target_dir}img", f"{target_dir}Public_test_data")
-os.rename(f"{target_dir}35_Competition 2_Private Test Dataset/img/", f"{target_dir}Private_test_data")
+os.rename(
+    f"{target_dir}35_Competition 2_Private Test Dataset/img/",
+    f"{target_dir}Private_test_data",
+)
 os.removedirs(f"{target_dir}35_Competition 2_Private Test Dataset")
