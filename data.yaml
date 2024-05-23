@@ -1,8 +1,0 @@
-path: ../Dataset
-train: Train_data
-val: Train_data
-test: Public_test_data
-
-names:
-    0: river
-    1: load

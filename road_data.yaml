@@ -1,0 +1,6 @@
+path: ../Dataset
+train: Train_data/Road_train_data
+val: Train_data/Road_train_data
+
+names:
+    0: road
